@@ -8,5 +8,7 @@ document.querySelector(".close").addEventListener("click", () => {
   lista.setAttribute("data-lista", "esconder");
 });
 
-
+function trocaImagem(cor){
+  document.querySelector(".robo").src="./img/Robotron 2000 - " + cor + ".png";
+}
 

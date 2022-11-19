@@ -104,3 +104,15 @@ button:active {
 [cor="preto"] {
   color: black;
 }
+
+.alterar {
+  margin: 2px;
+  width: 200px;
+}
+
+.botoes {
+ position: relative;
+ right: 5%;
+ bottom: 5%;
+ display: flex;
+}
